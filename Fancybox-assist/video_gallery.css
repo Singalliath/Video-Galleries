@@ -1,0 +1,51 @@
+body{
+    background-color: #333;
+}
+.video-gallery_container {
+    padding: 25px 0 25px 80px;
+    border: solid 2px #444;
+    border-left: none;
+    background-color: black;
+    background-image: url(/assets/images/film_strip.jpg);
+    background-repeat: repeat-y;
+    -moz-border-radius: 12px 0px 0px 12px;
+	-webkit-border-radius: 12px 0px 0px 12px;
+	border-radius: 12px 0px 0px 12px;
+}
+.clear_both{
+    clear: both;
+}
+a.videoLink{
+    background-color: #999999;
+    display: block;
+    width: 200px;
+    height: 115px;
+    margin: 0px 15px 15px 0px;
+    float: left;
+    position: relative;
+    border: 1px solid #000000;
+	cursor: pointer;
+}
+a.videoLink:hover{
+	border: 1px solid #DDDDDD;
+}
+a.videoLink div.caption{
+    position: absolute;
+    bottom: 0px;
+    width: 180px;
+    padding: 10px 10px 6px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9em;
+    color: white;
+    background-color: rgba(0, 0, 0, 50%);
+}
+a.videoLink img.play{
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 85px;
+}
+video {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+  
